@@ -5,4 +5,5 @@
     <string name="company_adress">2465 Latham St</string>
     <string name="company_area">Mountain View, CA 94043</string>
     <string name="company_number">650-555-5555</string>
+    <string name="udacitysite">www.udacity.com</string>
 </resources>
