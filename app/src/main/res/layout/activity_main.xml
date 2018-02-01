@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:contentDescription="@string/udacity_photo_descr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/udac"
+        />
+
+    <TextView
+        android:id="@+id/business_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/company_name"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="10dp"
+        android:textSize="22sp"/>
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/company_adress"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="10dp"
+        android:textSize="22sp"
+
+        />
+    <TextView
+        android:id="@+id/adress_continue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/company_area"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="10dp"
+        android:textSize="22sp"/>
+    <TextView
+        android:id="@+id/phonenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/company_number"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="10dp"
+        android:textSize="22sp"/>
+</LinearLayout>
